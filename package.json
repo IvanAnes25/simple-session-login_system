@@ -1,0 +1,14 @@
+{
+  "name": "session",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./style.css --minify",
+    "watch:css": "tailwindcss -i ./src/input.css -o ./style.css --watch"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.6.1",
+    "postcss": "^8.5.29",
+    "tailwindcss": "^3.4.17"
+  }
+}
